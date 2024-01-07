@@ -1,0 +1,240 @@
+/*INDEX.HTML */
+body {
+    background-color: #0083BD;
+    margin: 0px;
+}
+
+.header_in_mainpage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-inline: 20px;
+    padding-top: 10px;
+}
+
+.header_in_mainpage a {
+    cursor: pointer;
+}
+.logo_main {
+    padding-top: 5px;
+    width: 10%;
+}
+
+.signup_button {
+    border: 1px solid #000;
+    background: #FFA95C;
+    padding:22px 18px 22px 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+    color:#3E4A3D;
+}
+
+.login_button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.login_button {
+    border: 1px solid #000;
+    background: #FFA95C;
+    padding:22px 18px 22px 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color:#3E4A3D;
+}
+
+.presentation_in_main_page {
+    display: flex;
+    flex-direction: row;
+
+}
+.text_presentation {
+    margin: 15px;
+}
+.content_in_mainpage {
+    width: 48%;
+}
+.image_in_mainpage {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #000;
+}
+
+.welcome_text {
+    color: #B0F5F9;
+    text-align: justify;
+    font-family: Noto Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+    margin-top: 0px;
+}
+
+.details_text {
+    color: #B0F5F9;
+    text-align: justify;
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px; 
+    letter-spacing: 2.56px;
+}
+
+.green {
+    color: #9CF89E;
+}
+
+.orange {
+    color:#FFA95C;
+}
+
+.text_above_image {
+    color: #B0F5F9;
+    font-family: Noto Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text_above_image p {
+    margin: 3px;
+
+}
+
+.container_above_image {
+    position: absolute;
+    z-index: 1;
+    padding:10px;
+    margin: 20px;
+}
+.new {
+    color: #F3F9B0;
+
+    font-family: Noto Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px; 
+    letter-spacing: 2.56px;
+}
+
+.footer_in_mainpage {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000;
+    background: #00A4C7;
+    margin: 0px;
+    justify-content: end;
+    gap:50px;
+    padding-right: 15px;
+}
+
+.footer_in_mainpage p {
+    font-size: 20px;
+    color:white;
+}
+
+/*SIGNUP.HTML */
+
+.returntomain-button {
+    border: 1px solid #000;
+    background: #FFA95C;
+    padding:22px 18px 22px 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3E4A3D;
+}
+
+.nav-bar-signup-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-top: 10px;
+
+}
+
+.signup-title {
+    color: #FFF;
+
+font-family: Noto Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+
+
+#submit-signup {
+    border: 1px solid #000;
+
+    background: #9CF89E;
+    padding: 6px 20px 6px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#submit-signup:disabled {
+    color:grey;
+    background-color: rgb(190, 190, 190);
+    cursor:not-allowed;
+  }
+
+  .checkbox-label {
+    font-size: 14px;
+  }
+
+  .conditions {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+.main-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    color:white;
+    font-family: 'Noto Sans';
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input-signup-form {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.signup-confirmation-message-container {
+    background-color: white;
+    border: #475460 5px solid;
+    margin-top: 150px;
+    margin-inline: 40px;
+}
+
+.signup-confirmation-message {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
