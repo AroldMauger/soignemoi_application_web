@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700&family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/70fabb1b7e.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
         <header class="header_in_mainpage">
@@ -18,42 +19,63 @@
                 <button class="signup_button">Créer un compte</button>
             </a>
         </header>
-        <section class="presentation_in_main_page">
-            <div class="text_presentation content_in_mainpage">
-                <p class="welcome_text">Bienvenue sur le site de l’hôpital <strong class="green">Soigne</strong><strong class="orange">Moi</strong> de la région lilloise.</p>
-                <ul class="details_text">
-                    <li>45 médecins spécialistes</li>
-                    <li>équipement médical moderne</li>
-                    <li>plus de 6000 patients satisfaits</li>
-                </ul>
-                <div class="login_button_container">
-                    <button class="login_button">SE CONNECTER</button>
-                </div>
-            </div>
-            <div class="image_presentation content_in_mainpage">
-                <div class="container_above_image">
-                    <div class="new">
-                        <i class="fa-solid fa-star"></i>
-                        <span>NOUVEAU</span>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="text_above_image">
-                        <p>Ouverture janvier 2024 :</p>
-                        <ul>
-                            <li>Cabinet dentaire</li>
-                            <li>Cabinet de pédiatrie</li>
-                        </ul>
-                        <p>Prise de rendez-vous <br>immédiate.</p>
+        <main class="main_in_mainpage">
+            <section class="presentation_in_main_page descr-and-img-container-landingpage">
+                <div class="text_presentation content_in_mainpage">
+                    <p class="welcome_text">Bienvenue sur le site de l’hôpital <strong class="green">Soigne</strong><strong class="orange">Moi</strong> de la région lilloise.</p>
+                    <ul class="details_text">
+                        <li>45 médecins spécialistes</li>
+                        <li>équipement médical moderne</li>
+                        <li>plus de 6000 patients satisfaits</li>
+                    </ul>
+                    <div class="login_button_container">
+                        <button id="login_button_desktop" class="login_button">SE CONNECTER</button>
                     </div>
                 </div>
-               
-                <img class="image_in_mainpage" src="/front-end/assets/doctor.jpg" alt="photo d'un docteur en tenue de travail">
-            </div>
-        </section>
+                <div class="image_presentation content_in_mainpage">
+                    <div class="container_above_image">
+                        <div class="new">
+                            <i class="fa-solid fa-star"></i>
+                            <span>NOUVEAU</span>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="text_above_image">
+                            <p>Ouverture janvier 2024 :</p>
+                            <ul>
+                                <li>Cabinet dentaire</li>
+                                <li>Cabinet de pédiatrie</li>
+                            </ul>
+                            <p>Prise de rendez-vous <br>immédiate.</p>
+                        </div>
+                    </div>
+                   
+                    <img class="image_in_mainpage" src="/front-end/assets/doctor.jpg" alt="photo d'un docteur en tenue de travail">
+                </div>
+              
+            </section>
+               <!-- Modal pour la connexion--> 
+            
+               <div class="login-form">
+                    <div class="closebutton_container">
+                        <span class="closebutton_modal">X</span>
+                    </div>
+                    <form action="" method="post" class="inputs-container-login">
+                        <input class="input-in-login-form" type="text" name="username" id="username-input-login" placeholder="Nom d'utilisateur" required>
+                        <input class="input-in-login-form" type="password" name="motdepasse" id="password-input-login" placeholder="Mot de passe" required>
+                        <button type="submit" id="submit-login">Envoyer</button>
+                    </form>
+                </div>
+        </main>
+        
+        
+       
+
         <footer class="footer_in_mainpage">
             <p>Mentions légales</p>
             <p>Contactez-nous</p>
         </footer>
+      
+        <script src="/front-end/utils/login.js"></script>
     </body>
 </html>
 

@@ -46,6 +46,12 @@ body {
     font-weight: 800;
     font-size: 20px;
     color:#3E4A3D;
+    cursor: pointer;
+
+}
+
+.main_in_mainpage {
+    position: relative;
 }
 
 .presentation_in_main_page {
@@ -140,6 +146,67 @@ body {
 .footer_in_mainpage p {
     font-size: 20px;
     color:white;
+}
+
+
+/*LOGIN MODAL IN INDEX.HTML */
+
+.login-form {
+    position: absolute;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    background-color: #00DCFF;
+    width: 40%;
+    padding:15px;
+    bottom:0;
+    left:100px;
+    border: 1px solid black;
+
+}
+.input-in-login-form {
+    cursor: pointer;
+    height: 45px;
+    width: 275px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.inputs-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#submit-login {
+    cursor: pointer;
+    border: 2px solid #000;
+    background: #475460;
+    color:white;
+    padding: 6px 20px 6px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.closebutton_container {
+    display: flex;
+    justify-content: end;
+}
+
+.closebutton_modal {
+    border: 2px solid #000;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 5%;
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
 }
 
 /*SIGNUP.HTML */
