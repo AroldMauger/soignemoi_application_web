@@ -206,7 +206,18 @@ body {
     width: 5%;
     font-size: 30px;
     font-family: 'Manrope', sans-serif;
+    font-weight: 800;
     cursor: pointer;
+}
+
+.instruction_modal {
+    color: #3E4A3D;
+    font-size: 24px;
+    padding-left: 100px;
+    font-weight: 600;
+    margin-top:0px;
+    margin-bottom: 25px;
+    font-family: 'Noto sans';
 }
 
 /*SIGNUP.HTML */
@@ -302,6 +313,44 @@ label {
 
 .signup-confirmation-message {
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     padding: 10px;
+}
+
+
+/* DASHBOARD.PHP */
+
+.title-in-dashboard {
+    color: #9CF89E;
+    font-family: Noto Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+.logo_container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+
+.navbar-container {
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    gap:50px;
+}
+
+.button-top-dashboard {
+    border: 1px solid #000;
+    background: #FFA95C;
+    padding:16px 18px 16px 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3E4A3D;
 }

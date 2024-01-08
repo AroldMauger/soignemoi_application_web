@@ -59,8 +59,9 @@
                     <div class="closebutton_container">
                         <span class="closebutton_modal">X</span>
                     </div>
-                    <form action="" method="post" class="inputs-container-login">
-                        <input class="input-in-login-form" type="text" name="username" id="username-input-login" placeholder="Nom d'utilisateur" required>
+                    <p class="instruction_modal">Entrez vos identifiants :</p>
+                    <form action="/pages/login_web.php" method="post" class="inputs-container-login">
+                        <input class="input-in-login-form" type="text" name="email" id="username-input-login" placeholder="Adresse email" required>
                         <input class="input-in-login-form" type="password" name="motdepasse" id="password-input-login" placeholder="Mot de passe" required>
                         <button type="submit" id="submit-login">Envoyer</button>
                     </form>
